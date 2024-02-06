@@ -1,0 +1,57 @@
+[Version]
+signature ="$Chicago$"
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg = Scheme.Reg
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%arrow%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%start%,%10%\%CUR_DIR%\%wait%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%beam%,%10%\%CUR_DIR%\%pen%,%10%\%CUR_DIR%\%no%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%hori%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+[Strings]
+CUR_DIR     = "Cursors\Glitch"
+SCHEME_NAME = "(GLiTCh)"
+arrow       = "arrow2.cur"
+beam        = "text2.ani"
+dgn1        = "diag1.ani"
+dgn2        = "diag2.ani"
+hori        = "hori.ani"
+move        = "move.ani"
+vert        = "vert.ani"
+start       = "start2.ani"
+wait        = "wait2.ani"
+cross       = "cross.cur"
+help        = "help2.cur"
+link        = "link.cur"
+hand        = "hand.cur"
+no          = "no.cur"
+pen         = "pen.cur"
+person      = "person.cur"
+pin         = "pin.cur"
+[Scheme.Cur]
+start.ani
+start2.ani
+start3.ani
+text.ani
+text2.ani
+wait.ani
+wait2.ani
+arrow.cur
+arrow2.cur
+arrow3.cur
+cross.cur
+diag1.cur
+diag2.cur
+hand.cur
+help.cur
+help2.cur
+help3.cur
+hori.cur
+link.cur
+move.cur
+no.cur
+pen.cur
+person.cur
+pin.cur
+text.cur
+vert.cur

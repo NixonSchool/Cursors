@@ -1,0 +1,52 @@
+; CyberGlow-Infra-Red
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+rn.ani
+help.cur
+rw.ani
+rb.ani
+text.cur
+unavailable.cur
+hori res.cur
+vert res.cur
+dia res1.cur
+dia res2.cur
+move.cur
+rl.ani
+precision.cur
+pen.cur
+alt.cur
+[Strings]
+CUR_DIR       = "Cursors\CyberGlow-Infra-Red"
+SCHEME_NAME   = "CyberGlow-Infra-Red"
+pointer       = "rn.ani"
+help          = "help.cur"
+work          = "rw.ani"
+busy          = "rb.ani"
+text          = "text.cur"
+unavailiable  = "unavailable.cur"
+vert          = "vert res.cur"
+horz          = "hori res.cur"
+dgn1          = "dia res1.cur"
+dgn2          = "dia res2.cur"
+move          = "move.cur"
+link          = "rl.ani"
+cross         = "precision.cur"
+hand          = "pen.cur"
+alternate     = "alt.cur"
